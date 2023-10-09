@@ -46,12 +46,16 @@ To get started with this Chat Application, follow these steps:
     cd client
     npm install
 
-5.  Start the server and client:
+5. Go to client/src/configs/envVariables.js :
+    ``` 
+    Either set APP_ENV = 'local'
+    or import the value from .env file created in the folder client
+6.  Start the server and client:
    In both the server directory and client:
     ```shell
       npm start
     
-6.  Open your browser and visit http://localhost:3000 to use the Chat Application.
+7.  Open your browser and visit http://localhost:3000 to use the Chat Application.
 
 
 ## Technologies Used
